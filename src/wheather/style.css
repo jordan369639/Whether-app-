@@ -1,0 +1,286 @@
+*{
+    margin: 0;padding: 0;
+}
+.main-container{
+    background-color: #d6d7da;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(to right, #f1d569,  #edb74e,#e49834);
+ 
+
+  
+}
+.inputfiled{
+margin-top: 2rem;
+}
+#input-area{
+    width: 20rem;
+    height: 2rem;
+    padding: 0rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem 0rem 0rem 0.5rem
+
+}
+#searchbtn{
+height: 2rem;
+outline: none;
+width:6rem;
+border: none;
+border-radius: 0rem 0.5rem 0.5rem 0rem;
+background-color: cyan;
+color: rgb(20, 20, 20);
+position: relative;
+}
+.map-area{
+    background-color: #e7e7e7;
+    height: 33rem;
+    width: 63rem;
+    margin-top: 2rem;
+    box-shadow: 2px 4px 16px 2px black;
+    
+}
+
+.wheathericon img{
+   
+width: 100%;
+height: 7rem;
+   
+}
+.tempdetail{
+    background-color: #ffffff;
+    height: 8rem;
+    color: black;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif
+ 
+
+
+}
+.wheathertype{
+  
+    width: 22rem;
+    height: 100%;
+display: inline-flex;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.date{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 19rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-family: 'Rowdies', cursive;
+    color:#e6880c;
+
+}
+.wheathertype span{
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.wheathertype p{
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+
+}
+#city{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+}
+    
+.date{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.date p{
+    font-size: 1.4rem; 
+}
+.wheatherdetails {
+    display: inline-flex;
+    height: 25rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+  
+}
+.details{
+    width: 12rem;
+    height: 7rem;
+    position: relative;
+    top: 7rem;
+    background-color: white;
+    box-shadow: 1px 4px 9px -1px black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.details i{
+    margin-left: -2rem;
+    color:#e72222;
+    font-size: 1.3rem;
+    padding: auto;
+    position: relative;
+    left: 12rem;
+    top: 5rem;
+}
+h2{
+    margin-top: 2rem;
+}
+@media screen and (max-width:1200px) {
+    .map-area{
+        width: 54rem;
+    }
+    .details{
+        width: 10rem;
+    }
+    .details i{
+        left: 11rem;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .map-area{
+        width: 50rem;
+    }
+   
+    
+}
+@media screen and (max-width:800px) {
+    .map-area{
+        width: 41rem;
+    }
+    .details{
+        width: 7rem;
+    }
+    .details i{
+        left: 8rem;
+    }
+   
+    
+}
+@media screen and (max-width:700px) {
+    .map-area{
+        width: 31rem;
+    }
+    .details{
+        width: 5rem;
+    }
+    .details i{
+        left: 6rem;
+        top: 0rem;
+    }
+   
+ 
+}
+@media screen and (max-width:550px) {
+    .map-area{
+        width: 22rem;
+    }
+    .inputfiled{
+        margin-left: 0.2rem;
+    }
+    #searchbtn{
+        top: 0rem;
+        left: -1rem;
+    }
+   .wheatherdetails{
+    display: grid;
+    grid-template-rows: 3rem 3rem;
+    grid-template-columns: 3rem 3rem;
+    grid-gap: 7rem 4rem;
+   }
+.details{
+    width: 7rem;
+    left: -3rem;
+}
+.details i {
+    left: 8rem;
+    top: 6rem;
+}
+.wheathertype p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.wheathertype span {
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.wheathericon img {
+    width: 5rem;
+    height: 5rem;
+}
+.date p {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+}
+@media screen and (max-width:400px) {
+    .map-area{
+        width: 22rem;
+    }
+    .inputfiled{
+        margin-left: 0.2rem;
+    }
+    #searchbtn{
+        top: -2rem;
+        left: 17rem;
+    }
+   .wheatherdetails{
+    display: grid;
+    grid-template-rows: 3rem 3rem;
+    grid-template-columns: 3rem 3rem;
+    grid-gap: 7rem 4rem;
+   }
+.details{
+    width: 7rem;
+    left: -3rem;
+}
+.details i {
+    left: 8rem;
+    top: 6rem;
+}
+.wheathertype p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.wheathertype span {
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.wheathericon img {
+    width: 5rem;
+    height: 5rem;
+}
+.date p {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+}
